@@ -12,6 +12,9 @@
 		F9D120AD2176F420006F0375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D120AB2176F420006F0375 /* Main.storyboard */; };
 		F9D120AF2176F421006F0375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D120AE2176F421006F0375 /* Assets.xcassets */; };
 		F9D120B22176F421006F0375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D120B02176F421006F0375 /* LaunchScreen.storyboard */; };
+		F9D120BB2176F6E3006F0375 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D120BA2176F6E3006F0375 /* MapKit.framework */; };
+		F9D120BD2176FD7A006F0375 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D120BC2176FD7A006F0375 /* DataModel.swift */; };
+		F9D120BF2176FE2E006F0375 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D120BE2176FE2E006F0375 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F9D120AE2176F421006F0375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9D120B12176F421006F0375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9D120B32176F421006F0375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D120BA2176F6E3006F0375 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F9D120BC2176FD7A006F0375 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F9D120BE2176FE2E006F0375 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D120BB2176F6E3006F0375 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,7 @@
 			children = (
 				F9D120A62176F420006F0375 /* WhereAmI */,
 				F9D120A52176F420006F0375 /* Products */,
+				F9D120B92176F6E3006F0375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +68,18 @@
 				F9D120AE2176F421006F0375 /* Assets.xcassets */,
 				F9D120B02176F421006F0375 /* LaunchScreen.storyboard */,
 				F9D120B32176F421006F0375 /* Info.plist */,
+				F9D120BC2176FD7A006F0375 /* DataModel.swift */,
+				F9D120BE2176FE2E006F0375 /* DataStore.swift */,
 			);
 			path = WhereAmI;
+			sourceTree = "<group>";
+		};
+		F9D120B92176F6E3006F0375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D120BA2176F6E3006F0375 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D120AA2176F420006F0375 /* ViewController.swift in Sources */,
+				F9D120BF2176FE2E006F0375 /* DataStore.swift in Sources */,
 				F9D120A82176F420006F0375 /* AppDelegate.swift in Sources */,
+				F9D120BD2176FD7A006F0375 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
